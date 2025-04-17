@@ -1,0 +1,28 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Loupe et œil -->
+  <g transform="translate(75, 10)">
+    <!-- Loupe - cercle extérieur -->
+    <circle cx="75" cy="75" r="65" fill="none" stroke="#6a5acd" stroke-width="14"/>
+    
+    <!-- Manche de la loupe -->
+    <path d="M30 120 L10 140 Q0 150 10 160 Q20 170 30 160 L50 140" fill="#6a5acd"/>
+    
+    <!-- Œil -->
+    <g transform="translate(75, 75) scale(0.8) translate(-75, -75)">
+      <!-- Contour externe de l'œil -->
+      <path d="M40,75 C40,55 60,40 75,40 C90,40 110,55 110,75 C110,95 90,110 75,110 C60,110 40,95 40,75 Z" fill="#6a5acd"/>
+      
+      <!-- Partie claire de l'œil -->
+      <path d="M45,75 C45,60 60,45 75,45 C90,45 105,60 105,75 C105,90 90,105 75,105 C60,105 45,90 45,75 Z" fill="#87ceeb"/>
+      
+      <!-- Iris -->
+      <circle cx="75" cy="75" r="20" fill="#6a5acd"/>
+      
+      <!-- Reflet -->
+      <circle cx="65" cy="65" r="8" fill="white"/>
+    </g>
+  </g>
+  
+  <!-- Texte -->
+  <text x="50" y="240" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#6a5acd">WebGuardian</text>
+</svg> 

@@ -1,0 +1,16 @@
+<svg width="200" height="100" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Loupe et œil -->
+  <g transform="translate(30, 10) scale(0.8)">
+    <!-- Loupe -->
+    <circle cx="40" cy="40" r="25" fill="none" stroke="#6c4ca1" stroke-width="8"/>
+    <rect x="60" y="55" width="30" height="8" rx="4" transform="rotate(45 60 55)" fill="#6c4ca1"/>
+    
+    <!-- Œil -->
+    <circle cx="40" cy="40" r="15" fill="#e6f7ff"/>
+    <circle cx="40" cy="40" r="8" fill="#47bbcc"/>
+    <circle cx="44" cy="36" r="4" fill="#ffffff"/>
+  </g>
+  
+  <!-- Texte -->
+  <text x="30" y="85" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#6c4ca1">Webguardian</text>
+</svg> 
